@@ -16,7 +16,7 @@
 body {
     height: 100vh;
 
-    background-image: linear-gradient(rgb(71, 154, 214), rgb(70, 93, 224));
+    background-image: linear-gradient(rgb(104, 192, 255), rgb(41, 73, 255));
 
     display: flex;
     justify-content: center;
