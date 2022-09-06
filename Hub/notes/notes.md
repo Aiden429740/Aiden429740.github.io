@@ -1,0 +1,3 @@
+## How to use Templates
+In the Projects, copy and paste Proj1 in Projects to add a new.
+To add a new project button, got to the Hub index and copy and paste the button in the container div.
