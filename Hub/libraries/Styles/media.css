@@ -30,3 +30,25 @@
         font-size: .7em;
     }
 }
+
+@media only screen and (max-width: 1074px) {
+    .cards {
+        padding: 10px;
+        width: 160px;
+        height: 230px;
+    }
+    .cards:hover {
+        width: 180px;
+        height: 240px;
+    }
+    .title {
+        margin-top: 5px;
+        font-size: .8em;
+    }
+    .title::before {
+        top: 2.2em;
+    }
+    .desc {
+        font-size: .7em;
+    }
+}
