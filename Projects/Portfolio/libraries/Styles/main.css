@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scrollbar-color: rgb(41,81,100) rgba(37,39,51);
+    scrollbar-width: thin;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+
+    height: 100vh*3;
+    background-color: wheat;
+
+    overflow: hidden;
+}
+.page-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    scroll-snap-type: y proximity;
+}
+.page-container > div {
+    scroll-snap-align: start;
+}
+
+.text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.TITLE-DECOR {
+    height: 25px;
+}
+.TITLE-TEXT {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+
+/* Page 1 aka Homepage */
+.HomePage {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(8, 67, 214, 0.75);
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+
+    background-image: url("../img/homepage_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+} 
+
+/* Navigation Menu */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 120px;
+    width: 100%;
+}
+.logo {
+    width: 40em;
+}
+
+/* Social outlets */
+.container {
+    height: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1 {
+    color: rgb(227, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+    font-size: 2.5em;
+    letter-spacing: 45px;
+
+    width: 100%;
+    text-align: center;
+
+    margin: 0px;
+    padding-left: 5vh;
+    padding-bottom: 1em;
+}
+
+/* Social Icons */
+.socials {
+    width: 80%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials a img {
+    height: 8em;
+    filter: drop-shadow(-15px 20px 7px rgba(0, 0, 0, 0.35));
+    transition: all .5s;
+}
+.socials a img:hover {
+    margin-bottom: 5px;
+    height: 7.5em;
+    filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.5)) drop-shadow(0px 0px 35px rgba(43, 167, 224, 0.6));
+    transition: all .3s;
+}
+
+/* Copyright */
+.copyright {
+    margin-bottom: 25px;
+
+    color: rgb(227, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+    font-size: 1.1em;
+    letter-spacing: 5px;
+
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Page 2 | About Me */
+.about-me {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(43, 47,54);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-cards {
+    width: 95%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    height: 33%;
+    width: 100%;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card h1 {
+    font-size: 3em;
+}
+.card h1::before {
+    content: "";
+    position: absolute;
+
+    background:rgba(255, 255, 255, 0.5);
+
+    height: 100px;
+    width: 100px;
+}
+.card h2 {
+    font-size: 1.5em;
+    color: rgb(200,200,200);
+}
+.about-me-text {
+    color: rgb(136, 195, 255);
+    text-decoration: none;
+}
+.card div {
+    background-color: rgba(255, 255, 255, 0.462);
+    height: 1.5px;
+    width: 20em;
+}
+.vid-pic {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Page Final */
+.b3 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(37,39,51);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.previous-works {
+    width: 85%;
+    height: 500px;
+}
+
+.bottom-bar {
+    background-color: rgb(56,59,78);
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom-bar a:hover {
+    transition: all .3s;
+    filter: drop-shadow(0px 0px 10px rgb(156, 208, 251));
+}
+.bottom-bar a {
+    transition: all .5s;
+    font-size: 2em;
+    text-align: center;
+
+    display: flex;
+    align-content: center;
+
+    text-decoration: none;
+}
+.bottom-bar-icons {
+    padding-right: 5px;
+    height: 25px;
+}
+
