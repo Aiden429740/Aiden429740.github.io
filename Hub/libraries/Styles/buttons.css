@@ -1,43 +1,60 @@
 .container {
-    width: 100vh;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 35px;
+
+    width: 85%;
     height: 25vh;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.button {
-    background-image: linear-gradient(rgb(255, 247, 0), rgb(255, 42, 0));
-    filter: drop-shadow(16px 25px 25px rgba(41, 19, 2, .5));
-    border-radius: 15px;
-    border-top-left-radius: 65px;
-    border-bottom-right-radius: 65px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    margin-top: 32.5vh;
+}
+
+.cards {
+    background-image: linear-gradient(rgb(35, 182, 255), rgb(44, 41, 255));
+    filter: drop-shadow(16px 25px 25px rgba(41, 19, 2, .5));
+    border-radius: 15px;
+    border-top-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+
+    display: flex;
+    flex-direction: column;
+
     width: 250px;
-    height: 110px;
-    
-    opacity: 75%;
+    height: 300px;
+    text-align: left;
+    padding: 20px;
+
+    opacity: 65%;
     transition: all .3s;
 }
-.button:hover {
+.cards:hover {
     width: 260px;
-    height: 120px;
+    height: 310px;
 
     opacity: 100%;
-    filter: drop-shadow(16px 25px 25px rgba(41, 19, 2, .7));
+    filter: drop-shadow(16px 25px 25px rgba(41, 19, 2, .2)) drop-shadow(0px 0px 35px rgba(56, 89, 218, .5));
 
     transition: all .3s;
 }
 
-/* AAA
-og = background-image: linear-gradient(rgba(255, 247, 0, 0.75), rgba(255, 42, 0, 0.75));
-box-shadow: 5px 20px 20px 5px rgba(41, 19, 2, 0.5);
+.title {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+.title::before {
+    content: "";
+    position: absolute;
 
-box-shadow: 5px 20px 20px 5px rgba(94, 40, 9, 0.5);
-background-image: linear-gradient(rgb(255, 247, 0), rgb(255, 42, 0));
-*/
+    background: rgba(255, 255, 255, 0.4);
+    width: 83%;
+    height: 3px;
+
+    top: 2em;
+}
+
+.desc {
+    width: 100%;
+}

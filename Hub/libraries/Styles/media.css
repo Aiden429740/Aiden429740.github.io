@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1750px) {
+    .cards {
+        width: 200px;
+        height: 260px;
+    }
+    .cards:hover {
+        width: 220px;
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .cards {
+        padding: 10px;
+        width: 205px;
+        height: 270px;
+    }
+    .cards:hover {
+        width: 215px;
+        height: 280px;
+    }
+    .title {
+        margin-top: 5px;
+        font-size: .8em;
+    }
+    .title::before {
+        top: 2.2em;
+    }
+    .desc {
+        font-size: .7em;
+    }
+}
