@@ -13,11 +13,14 @@
 
 .pageText {
     font-size: 18px;
-    color: #ededed;
+    color: #c2c2c2;
     text-align: left;
+    padding-bottom: 15px;
 }
+
 
 .header {
     font-size: 25px;
     padding-bottom: 5px;
+    color: #ffffff;
 }

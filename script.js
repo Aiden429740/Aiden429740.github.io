@@ -7,3 +7,9 @@ console.log(x, y, z)
 function myFunction(a, b) {
   return a + b
 }
+
+class test {
+  constructor() {
+    this.x = 23
+  }
+}
