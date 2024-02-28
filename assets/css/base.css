@@ -1,9 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
+    color: #ffffff;
 }
 
 body {
-    background: url("../img/bkg.jpg") no-repeat center center fixed;
-    background-size: cover;
-  }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1B1B1B;
+}
+
+header {
+    background-color: #2785F2;
+    color: #fff;
+    text-align: left;
+    padding: 20px 25px;
+}
+
+.text {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+
+    background-color: #5AB8E8;
+    margin-right: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.nav_lnk_dwn {
+    background-color: #41414100;
+    color: rgb(255, 255, 255);
+}
+.nav_lnk_idle {
+    background-color: #5AB8E8;
+}
+
+footer {
+    background-color: #2785F2;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
