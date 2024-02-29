@@ -1,6 +1,8 @@
 # U15A2
 
-https://github.com/431115/U15A2.git
+https://github.com/Aiden429740/Aiden429740.github.io
+
+https://aiden429740.github.io/
 
 ## The Requirements 
 
