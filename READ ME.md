@@ -111,6 +111,8 @@ Chrome testing:
 
 Both of these look exactly the same, they both had no size, squishing or oddities happening with the browsers, these are the top browsers and decided to use these for my testing.
 
+The website does not function on Mobile devices. 
+
 ### Speed Testing
 
 I used PageSpeed for the speed performance and got expected results:
