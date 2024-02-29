@@ -51,7 +51,7 @@ Design 1:
 
 Design 2:
 
-![alt text](/assets/img/WebChanges/DesignChoice1.png)
+![alt text](/assets/img/WebChanges/DesignChoice2.png)
 
 ### Design Choice Reasoning
 
