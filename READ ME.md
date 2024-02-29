@@ -1,193 +1,160 @@
-# unit 15 assignment 2
-https://github.com/431115/U15A2.git
-https://431115.github.io/U15A2/index.html
+# U15A2
 
-## Requirements 
+https://github.com/431115/U15A2.git
+
+## The Requirements 
 
 ### User requirements
 
-1. Accessible to all users
-2. A website that is easy to navigate
-3. A website that is visually appealing
-4. A website that is informative
-5. A website that is interactive
-6. A website that is easy to use
+1. The website must have a user-friendly interface that is easy to navigate.
+2. Users should be able to create an account and log in to access personalized features.
+3. The website should provide detailed information about the company and its services.
+4. Users should be able to search for job openings and apply online.
+5. The website should have a responsive design that is compatible with different devices and screen sizes.
 
-### Client requirements
-1. A profile of the company itself
-2. profiles of existing trainee web developers
-3. job specifications and required qualifications
-4. an on-line application form
-5. links to web development courses
+### Client requirement
 
-### target audience
-The target audience for the site is people who have completed training courses or qualifications related to web development and are now looking for a job as a web developer. 
+The website should:
 
-## file structure
-![alt text](<assets/img/file structure.png>)
-
-## to do list
-- Create User Requirements **12/02/2024**
-- Create storyboards **13/02/2024**
-- Create website **14/02/2024**
-- testing **15/02/2024**
-- Get feedback and Respond to feedback **16/02/24**
-- Optimisations using the feedback **19/02/2024**
-- rest of the documentation **22/02/2024**
-- Double Check **27/02/2024**
-
-## Design
-
-### Storyboard 1
-![alt text](assets/img/storyboard1.png)
-
-### Storyboard 2
-![alt text](assets/img/StoryBoard2.png)
-
-### Design decision.
-I have chosen the first design because it suits the user requirements and the client requirements better then the second design. The first design is more visually appealing and interactive. It is also easier to navigate and use. The color scheme for the Second design is not great and to complicated and can be hard on the eyes so it does not suit the user requirements. The first design has more place for the content to go. Another reason I chose the first design is because it does not have to be complicated as the user will be the people who are applying for the job.
-
-### color scheme
-![alt text](<assets/img/color scheme.png>)
-
-The reason why I chose this color scheme is because it is very simple. A simple color reduces the visual clutter and makes it easier for the users to focus on the content. Users can navigate more effectively when presented with a clean and straightforward color scheme. Having to many colors also makes the website look unprofessional and chaotic. Having a simple color scheme also makes the text stand out more helping with visually impaired users.
-
-### typography
-The font I have chose is "Libre Baskerville" its a serif font. I chose this font because it is easy to read and looks professional while still being simple. The font is also easy to read for visually impaired users. The font is also easy to read on all devices. I have also put "serif" as the fallback font in case people cant load the "Libre Baskerville" font.
+1. have a modern and visually appealing design that reflects the company's brand.
+2. be optimized for search engines to improve visibility and attract organic traffic.
+3. have a secure and robust authentication system to protect user data.
+4. integrate with social media platforms to allow users to share job openings and company information.
+5. have analytics capabilities to track user behavior and measure the effectiveness of marketing campaigns.
 
 
-## navigation map
-|           | JobSpecs | Trainees | UserForms | index   |
-| --------- | -------- | -------- | --------- | ------- |
-| JobSpecs  |     ✓    |     ✓    |     ✓     |     ✓   |
-| Trainees  |     ✓    |     ✓    |     ✓     |     ✓   |
-| UserForms |     ✓    |     ✓    |     ✓     |     ✓   |
-| index     |     ✓    |     ✓    |     ✓     |     ✓   |
+### Target Audience
 
-## Issues
-I only have two issues happen while making the website. The first issue was that the navigation button didn't work. The second issue was that ... .Both of these issues were fixed and logged in github under the issues tab.
+The intended audience for the website consists of individuals who have successfully completed training courses or obtained qualifications in the field of web development and are actively seeking employment opportunities as web developers.
 
-## testing
+## File Structure
 
-### Test plan
-1. Test the website on different web browsers
-    * expected result: the website should look the same on all web browsers
-2. Test the website on different devices
-    * expected result: the website should look the same on all devices
-3. Test the website's loading speed 
-    * expected result: the website should load in under or around 3 seconds
-4. Test the website's navigation
-    * expected result: the website's navigation should work according to the navigation map
-5. Test the forms to make sure people cant submit with out filling in all the fields
-    * expected result: the form should fail to submit if all the fields are not filled in
+![alt text](</assets/img/WebChanges/FileStructure.png>)
 
-### Test results
+## Project Plan
 
-#### **TEST 1**
-The website as expected looks the same on all web browsers I testing it on the web browsers I tested it on were:
-- opera gx
-![alt text](<assets/img/opera gx.png>)
-- microsoft edge
-![alt text](<assets/img/microsoft edge.png>)
-- google chrome
-![alt text](<assets/img/opera gx.png>)
+- **12/02/2024**: Create User Requirements
+- **13/02/2024**: Create Storyboards
+- **14/02/2024**: Develop and Design Website
+- **15/02/2024**: Perform Testing
+- **16/02/2024**: Gather Feedback
+- **19/02/2024**: Implement Optimizations based on Feedback
+- **22/02/2024**: Complete Remaining Documentation
+- **27/02/2024**: Finish any minor issues & organize
 
-#### **TEST 2**
-The website as expected looks the same on all devices I tested it on the devices I tested it on were:
-- phone
-![alt text](assets/img/phone.png)
-- desktop
-![alt text](assets/img/Destop.png)
 
-#### **TEST 3**
-The website loaded in 118ms which is really good and is under the expected time of 3 seconds I used [pingdom](https://tools.pingdom.com/) to test the loading speed. the full report is:
+## Design Options
+
+Design 1:
+
+![alt text](/assets/img/WebChanges/DesignChoice1.png)
+
+Design 2:
+
+![alt text](/assets/img/WebChanges/DesignChoice1.png)
+
+### Design Choice Reasoning
+
+I chose the first design with the help of feedback from Adam & Mitchel. 
+
+I chose Design 1 because its minimalist layout aligns well with the company's branding of simplicity and elegance. The clean and uncluttered design enhances user experience by focusing on essential elements, ensuring that visitors can easily navigate the website and find the information they need without distractions.
+
+Adam: the first design seems more clean and not so many buttons pushed in my face and with the colors not so in your face either.
+
+Mitchel: Design 2 seems very un-organized, the buttons seem scattered and the color scheme chosen seem to be too bright and colorful for the intended purpose. Design 1 seems a much better alternative, it has a seamless button layout, I know where the buttons are and I know they are interactable.
+
+### Colour Scheme
+
+![alt text](</assets/img/ColourScheme.png>)
+
+https://paletton.com/#uid=13w0u0kqEsw6WahitkBEZIGYQ+e
+
+I picked blue and dark grey colors because they make the website look professional and trustworthy. Blue gives a feeling of stability and integrity, making visitors feel secure. Dark grey goes well with blue and makes the design look stylish and modern.
+
+### Typography
+
+Choosing Arial is a good idea because it's clear, easy to read, and widely available. Arial is a simple, straightforward font that ensures website content is legible and accessible to all users. Its familiarity also enhances user experience, as visitors are likely accustomed to seeing Arial on various platforms, making navigation and comprehension smoother.
+
+## Navigational Map
+
+|           | About Us | Our Employees | Careers |
+| --------- | -------- | ------------- | ------- |
+| About Us  |     ✓    |       ✓      |    ✓    |
+| Employees |     ✓    |       ✓      |    ✓    |
+| Careers   |     ✓    |       ✓      |    ✓    |
+
+All pages link back to each other with no issues, you can seamlessly go from About Us to Careers back and then to Our Employees.
+
+## Known Issues
+
+1. Issue: Side scrolling, the website should not be side scrolling and seems to be broken (minor issue)
+2. Issue: Buttons Not Working, some of the buttons broke when adding new CSS to the About Us. (major issue) (fixed)
+
+## Testing Phase
+
+- Verify all links and buttons perform their intended actions without errors.
+- Evaluate website layout and design for user-friendliness and intuitive navigation.
+- Test the website across different web browsers like Chrome, Firefox, Safari, and Edge.
+- Measure page load times to ensure optimal performance across devices and network conditions.
+
+### Results
+
+Firefox testing:
+
+![alt text](</assets/img/WebChanges/FirefoxTesting.png>)
+
+Chrome testing:
+
+![alt text](</assets/img/WebChanges/ChromeTesting.png>)
+
+Both of these look exactly the same, they both had no size, squishing or oddities happening with the browsers, these are the top browsers and decided to use these for my testing.
+
+### Speed Testing
+
+I used PageSpeed for the speed performance and got expected results:
+
 ![alt text](<assets/img/speed test.png>)
 
-#### **TEST 4**
+Used website: https://pagespeed.web.dev/
 
-I tested the website's navigation according to the navigation map and it worked as expected.
-
-- expected result
-
-|           | JobSpecs | Trainees | UserForms | index   |
-| --------- | -------- | -------- | --------- | ------- |
-| JobSpecs  |     ✓    |     ✓    |     ✓     |     ✓   |
-| Trainees  |     ✓    |     ✓    |     ✓     |     ✓   |
-| UserForms |     ✓    |     ✓    |     ✓     |     ✓   |
-| index     |     ✓    |     ✓    |     ✓     |     ✓   |
-
-- actual result
-
-|           | JobSpecs | Trainees | UserForms | index   |
-| --------- | -------- | -------- | --------- | ------- |
-| JobSpecs  |     ✓    |     ✓    |     ✓     |     ✓   |
-| Trainees  |     ✓    |     ✓    |     ✓     |     ✓   |
-| UserForms |     ✓    |     ✓    |     ✓     |     ✓   |
-| index     |     ✓    |     ✓    |     ✓     |     ✓   |
-
-#### **TEST 5**
-The form failed to submit if all the fields were not filled or if the email was not in the correct format as expected.
-![alt text](<assets/img/form test1.png>)
-![alt text](<assets/img/form test2.png>)
-
-## feedback
+## Feedback
 
 ### Adam
-the website looks nice and simple. The navigation is easy to use which makes it easy to navigate the only problem is that the apply button is second and it would benefit from being the last button instead. The forms page could use with more forms like a place to add your phone number and references. The current trainees page is unorganized and could use with something like a carousel to make it look better and easier to use.
 
-### Aiden
-The color scheme for the website looks very dull and boring. The job specifications page does not have some of the necessary information like the salary, location, ect. The website looks to simple and could use with more things to make it look more visually appealing. Another thing is that the current trainees page has a massive unnecessary gap. 
+The website works well for what it's meant to do. It's not too detailed, but you still get what's going on. The colors look good and don't hurt your eyes. The layout is nice, not annoying. It's easy to switch between pages and read the text.
+
+### Mitchel
+
+The website functions smoothly for its intended purpose, hitting a balance between providing enough detail without overwhelming the user. The color scheme is pleasant and easy on the eyes, while the layout is visually appealing without being distracting. Navigating between pages is seamless, and the text is legible and easy to read. Overall, it's a positive experience to move through the site and access information effortlessly.
 
 ### Responding to feedback
-I have taken the feedback into account and my response to the feedback is. I will move the apply button to be the last one as it makes more sense to apply after you have read about the job. I will also update the forms page to include phone numbers but not the references as it is not necessary for this job. For the current trainees page i have decided to add a carousel in the next version of the website as it would make that page more visually appealing and compact. For the color scheme I have decided to keep it as it is because I don't want to over complicate the website and make it look unprofessional and also having a simple color scheme makes the text stand out more helping with visually impaired users. In the next update of the website I will also add more information to the job specifications page to make it more informative so it better suits the user requirements. As for the on the current trainees page that will be removed when I implement the carousel.
 
-## Optimisations
-I have make some changed to the website from when it was first looked at.
+The lack of detail could definitely be improved upon in version 2.0 of the website, there will be much more detail where users can identify and do much more with the webpage. The color scheme was very effective as it's visually appealing and not so abrasive on the eyes while hitting a good decent balance of color, readability and seamless transition.
 
-Using the feedback I have make the following changes to the website:
-- I have moved the apply button to be the last button on the navigation bar
-- I have updated the forms page to include phone numbers.
-
-
-#### **old navigation**
-![alt text](<assets/img/old nav.png>)
-#### **new navigation**
-![alt text](<assets/img/new nav.png>)
-#### **old form**
-![alt text](<assets/img/old form.png>)
-#### **new form**
-![alt text](<assets/img/new form.png>)
-
-#### **old looks of the website**
-![alt text](<assets/img/first look.png>)
-This is the before the website was finished. The website looks very simple and easy to navigate. The color scheme is very simple and easy on the eyes. The website is also very informative and interactive. The website is also very easy to use. Something were off like the navigation buttons were far apart and there was no way to get back the index page from the other pages.
-
-#### **final looks of the website**
-![alt text](<assets/img/final look.png>)
-This is the final look of the website. I added the information and changed the navigation buttons to be closer together. I also added another button to the navigation bar to allow the user to get back to the index page from the other pages. 
-
-
-## evaluation
+## Evaluation
 
 ### Design
-I think the design of the website meets the user requirements and the client requirements and meets the stated purpose of the website. 
 
-#### **color scheme**
-One of the ways my design meets the user and clint requirements is because the color scheme is very simple which reduces the visual clutter and makes it easier for the users to focus on the content. Another way the color scheme meets the user and client requirements is because it makes the text stand out more helping with visually impaired users. The color scheme also makes the website look more professional and easy to navigate.
+Personally, from the feedback and the improvements - I have met the requirements, confirming the website meets the standards. 
 
-#### **typography**
-I feel like the font I have chosen fits best with the user and client requirements because it is a very commonly used font which means that most browsers will be able to load it and if it cant load it will use the fallback font. The font is made to look professional and still making it easy to read. 
+### Color Scheme
 
-#### **layout**
-I feel like the layout of the website in its final form meets the user and client requirements because as shown in the navigation map the website is easy to navigate and use. The website is also visually appealing and informative because of the layout I have chosen to use. Also having that layout makes the information easy to find and makes it stand out more.
+I picked blue and dark grey colors because they make the website look professional and trustworthy. Blue gives a feeling of stability and integrity, making visitors feel secure. Dark grey goes well with blue and makes the design look stylish and modern.
 
-#### **conclusion**
-In conclusion I feel think the design of the website meets the user and client requirements, The website also fits the target audience because of the decisions I have made in the design of the website. The website is also easy to navigate and use because of the design decisions I have made. The website is also visually appealing and informative because of the design decisions I have made.
+### Typography
 
-### development
-While I was coding the website I tried to make the code as clean and clear as possible. I used correct spacing and I named the classes appropriately. I did this so other people can change the code with out having to spend a lot of time trying to figure out what everything does. The only thing that I could have done better is to add comments to the code to make it even easier for other people to understand the code and or me if I have to come back to the code in the future. I also tried to make the code easier to maintain and optimise if need be.
-![alt text](assets/img/Code.png)
+Choosing Arial is a good idea because it's clear, easy to read, and widely available. Arial is a simple, straightforward font that ensures website content is legible and accessible to all users. Its familiarity also enhances user experience, as visitors are likely accustomed to seeing Arial on various platforms, making navigation and comprehension smoother.
 
-While I was developing the website I used visual studio code which allowed me to use github to save my work as I was doing it, allowing me to go back to previous version in case I had to which helped me improve my productivity. Another thing that helped me is that github has issue log which allowed me to keep track of any issues that accrued while I was coding the website. github also allowed me to publish the website so I could test it on different devices and web browsers more effectively. Compared to other tools I could have used I think that visual studio code with github was the best tool for the job because it allowed me to do everything I needed to do in one place effectively.
+### Layout
 
-### optimization
+The layout was simple and straightforward, designed with attention to ensuring easy navigation for all users. Its simplicity ensures that anyone can quickly find their way around the site. The homepage features three clear buttons, each providing concise details about its respective section as soon as the page loads.
+
+### Conclusion
+
+In summary, I believe the website's design fulfills both user and client needs. It aligns well with the target audience due to the design choices made. Additionally, the site's navigation and usability are enhanced by these decisions. Furthermore, the design contributes to the website's visual appeal and informative nature.
+
+### Development
+
+While coding the website, I focused on maintaining clean and clear code by ensuring proper spacing and naming conventions. This approach facilitates easier comprehension and modification for others without excessive time investment. However, I recognize the need for adding comments to enhance code clarity, both for others and for future reference. Additionally, I prioritized code maintainability and optimization for potential future updates.
+
+While building the website, I used Visual Studio Code and GitHub to save different versions quickly, making things easier. GitHub also helped me test the site on different devices and web browsers. Basically, using Visual Studio Code with GitHub was the best way to make the website smoothly.
