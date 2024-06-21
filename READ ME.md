@@ -162,3 +162,28 @@ In summary, I believe the website's design fulfills both user and client needs. 
 While coding the website, I focused on maintaining clean and clear code by ensuring proper spacing and naming conventions. This approach facilitates easier comprehension and modification for others without excessive time investment. However, I recognize the need for adding comments to enhance code clarity, both for others and for future reference. Additionally, I prioritized code maintainability and optimization for potential future updates.
 
 While building the website, I used Visual Studio Code and GitHub to save different versions quickly, making things easier. GitHub also helped me test the site on different devices and web browsers. Basically, using Visual Studio Code with GitHub was the best way to make the website smoothly.
+
+## Changes
+
+Issues needing to be fixed:
+
+1. Footer was pushed to the right of the screen.
+2. Video frame on first page was under footer and too big for smaller screens.
+3. Employee cards were not positioned and sized correctly.
+4. Card Image are not correctly sized, too big for smaller screens.
+5. Text was too big on the first page & second page of cards.
+6. Nav bar buttons were squished when a smaller screen was used.
+
+## Changes Made
+
+1. Footer was fixed, due to a weird bug within the HTML code, to was randomly pushing it right of the screen when too many DIVs were added in container. This impacted the clean look of the website and made it look unprofessional.
+
+2. Video frame was too big, to fix this minor issue I thought a Media Query would be the best way to fix this, I made the frame shrink when a screen smaller than or equal to 600 pixels were used. this fixed the size being too big for smaller screens. The secondary issue was it was always under the footer so it was not possible to fully see the video, this was fixed by adding a spacer (a small div box without content) to the bottom of the screen to fill in the gap, this was due to the footer being removed from the content and therefore had more space for content to slide down. this was impacting users with screen sizes and the ability to see the video.
+
+3. Employee cards were not sized correctly, I was using Percentage size which was directly linked to the container of the cards and making them squish together. Fixed this by using a fixed size for the cards such as pixels rather than percentage, this made them look more professional and not squished together.
+
+4. Card Image are not correctly sized, too big for smaller screens. The size were Percentaged which affecting when the card itself got resized. I fixed it by using pixels rather than percentage, this made the images fixed with the card and not squished or too big for the card. This to make the viewing experience better and more professional.
+
+5. Text was too big on the first page & second page of cards. I made the mistake of using pixels and percentages which made the text too big for the cards, I fixed this by using EMs which are relative to the root element (html) and not the parent element. This made the text size consistent and not too big for the cards.
+
+6. Nav bar buttons were squished when a smaller screen was used. I used a media query to fix this issue, I made the buttons shrink when the screen was smaller than 600 pixels. This made the buttons look more professional and fixed the issue for people not being able to click on buttons.
