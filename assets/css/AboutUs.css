@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    height: 500vh;
+    width: 80%;
+
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+
+    background-color: rgba(245, 222, 179, 0);
+}
+
+.pageText {
+    font-size: 18px;
+    color: #c2c2c2;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.spacer {
+    padding-bottom: 15px;
+}
+
+
+.header {
+    font-size: 25px;
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    iframe {
+        width: 400px;
+        height: 240px;
+    }
+}
